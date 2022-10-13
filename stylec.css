@@ -1,0 +1,171 @@
+body{
+    background-color: lavenderblush;
+  
+ }
+ .bg{
+    background-color: lightcoral;
+    width: 80%;
+   height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    border-radius: 12cm;
+    align-items: center;
+ }
+ .about{
+    text-align: center;
+    font-family: serif;                         
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+
+ }
+ .hr{
+   
+    background-color: black;
+    height: 0.2%;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+ }
+
+ .vedanti{
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 22%;
+  
+ }
+
+ .khushboo{
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+ }
+
+ .anusha{
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 52%;
+   
+ }
+
+ .manmeet{
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 67%;
+
+ }
+
+ .atxt{
+    color: black;
+    font-size: 19px;
+    font-family:serif;
+    position: absolute;
+    top: 62%;
+    left: 22%;
+    box-shadow: inset 0 0 0 0 #000000;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .4s ease-in-out;
+    border-radius: 1cm;
+ }
+ .atxt:hover{
+    box-shadow: inset 165px 0 0 0 #000000;
+    color: white;
+    border-radius: 1cm;
+
+ }
+ .mtxt{
+    color: black;
+    font-size: 19px;
+    font-family: serif;
+    position: absolute;
+    top: 62%;
+    left: 37%;
+    box-shadow: inset 0 0 0 0 #000000;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .4s ease-in-out;
+    border-radius: 1cm;
+
+ }
+ .mtxt:hover{
+    box-shadow: inset 200px 0 0 0 #000000;
+    color: white;
+    border-radius: 1cm;
+
+ }
+ .rtxt{
+    color: black;
+    font-size: 19px;
+    font-family: serif;
+    position: absolute;
+    top: 62%;
+    left: 53%;
+    box-shadow: inset 0 0 0 0 #000000;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .4s ease-in-out;
+    border-radius: 1cm;
+ }
+ .rtxt:hover{
+    box-shadow: inset 163px 0 0 0 #000000;
+    color: white;
+    border-radius: 1cm;
+ }
+ .ttxt{
+    color: black;
+    font-size: 19px;
+    font-family: serif;
+    position: absolute;
+    top: 62%;
+    left: 68%;
+    box-shadow: inset 0 0 0 0 #000000;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .5s ease-in-out, box-shadow .4s ease-in-out;
+    border-radius: 1cm;
+ }
+ .ttxt:hover{
+    box-shadow: inset 163px 0 0 0 #000000;
+    color: white;
+    border-radius: 1cm;
+ }
+
+.roll1{
+color: black;
+position: absolute;
+top: 65%;
+left: 26%;
+}
+.roll2{
+color: black;
+position: absolute;
+top: 65%;
+left: 41%;
+}
+.roll3{
+color: black;
+position: absolute;
+top: 65%;
+left: 56%;
+}
+.roll4{
+color: black;
+position: absolute;
+top: 65%;
+left: 71%;
+}
+.vedanti:hover,.khushboo:hover,.anusha:hover,.manmeet:hover
+{
+   transform: scale(1.15);
+    transition:ease-in-out;
+    transition-duration: 200ms;
+    box-shadow: 0 0 40px grey;
+}
